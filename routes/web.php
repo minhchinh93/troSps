@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
-Route::get('/index', [troController::class, 'index'])->name('index');
+// Route::get('/index', [troController::class, 'index'])->name('index');
 // Route::get('/return', [troController::class])->name('return');
 // Route::post('/trosps', [troController::class, 'trosps'])->name('trosps');
 // dd('ok');
